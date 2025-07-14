@@ -1,0 +1,10 @@
+name: ftr-iac
+description: Projeto IAC Pos Graduacao Rocketseat
+runtime:
+  name: nodejs
+  options:
+    packagemanager: pnpm
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-typescript
